@@ -1,28 +1,20 @@
 # HW4
 
 
-Please use D2L to turn in both the HTML output and your R Markdown file in.
 
-### Q1. Data Wrangling (2 points)
+Read in the titantic dataset from [http://math.montana.edu/ahoegh/teaching/stat408/datasets/titanic.csv](http://math.montana.edu/ahoegh/teaching/stat408/datasets/titanic.csv)
 
-In your own words, describe data wrangling.
 
-### Q2. Tidy Data (3 points)
+## Q1. How many passengers were on the titantic (2 points)
 
-Define a tidy dataset, then create and print a small data frame that __is not__ a tidy dataset.
+## Q2. How many passengers on the titantic survived? (2 points)
 
-### Q3. Merge (4 points)
+Note survival is denoted by `Survived = 1`.
 
-Merge the two datasets.
-```
-library(tidyverse)
-yelp <- read_csv("http://math.montana.edu/ahoegh/teaching/stat408/datasets/yelp_lasvegas_business.csv")
 
-yelp_review <- read_csv("http://math.montana.edu/ahoegh/teaching/stat408/datasets/yelp_lasvegas_reviews_small.csv")
-```
+## Q3. How many passengers were on the titantic for each passenger class (3 points)
 
-Then summarize how many 5 star reviews exist for the businesses on the `The Strip`. You can combine this across all of the different business IDs.
 
-### Q4. Wide Datasets (3 points)
+## Q4. What proportion of passengers on the titantic survived for each passenger class? (3 points)
 
-Create a small dataset and display this in wide format and long format.
+Note survival is denoted by `Survived = 1`.
